@@ -5,9 +5,9 @@ import CourseGoalList from "./components/CourseGoalList";
 import NewGoal from "./components/NewGoal";
 
 interface CourseGoal {
+  id: number;
   title: string;
   description: string;
-  id: number;
 }
 
 export default function App() {
